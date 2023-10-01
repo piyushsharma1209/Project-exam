@@ -1,3 +1,7 @@
+# Welcome to Piyo shopping website
+
+This website have a lot of products with search function, add to cart, checkout and after pressing on continue shopping the cart reset. Contact page has an form with console logs the data in filled in the form.  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
