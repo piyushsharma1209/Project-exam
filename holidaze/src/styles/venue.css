@@ -1,0 +1,132 @@
+/* Venue Page Styles */
+.venue-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    background-color: var(--light-grey);
+    max-width: 50%;
+    /* Adjusted max-width for smaller screens */
+    margin: 0 auto;
+    /* Center the container horizontally */
+}
+
+.venue-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center content horizontally */
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.venue-details h1 {
+    font-size: 1rem;
+    /* Smaller font size */
+    margin-bottom: 10px;
+    color: var(--main-black);
+}
+
+.venue-details p {
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+    /* Smaller font size */
+    color: var(--text-grey);
+}
+
+.venue-calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.react-calendar {
+    width: 100%;
+    max-width: 450px;
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 0.5rem;
+}
+
+
+.react-calendar__month-view__weekdays {
+    margin-bottom: 5px;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+    color: var(--secondary-black);
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+
+.react-calendar__tile--now {
+    border: 2px solid #666;
+    box-sizing: border-box;
+    transition: border 0.3s;
+}
+
+.react-calendar__tile--now:hover {
+    border-color: var(--active-green);
+}
+
+.date-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.date-label {
+    font-size: 0.8rem;
+    color: var(--text-grey);
+    margin-bottom: 5px;
+}
+
+.date-value {
+    font-size: 1rem;
+    color: var(--highlight-blue);
+    font-weight: bold;
+}
+
+.total-price {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: var(--main-black);
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: var(--active-green);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background-color: #379d40;
+}
+
+.booking-confirmation {
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--active-green);
+    color: var(--white);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
